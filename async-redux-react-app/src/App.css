@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.brewery {
+  border: 3px black dashed;
+
+  width: 400px;
+  margin: 4vh auto;
+  padding: 20px;
+  background-color: beige;
+}
+
+.brewery-address {
+  border: 4px solid yellow;
+  width: 50%;
+  margin: 2vh auto;
+  text-align: center;
+  padding: 20px;
+}
