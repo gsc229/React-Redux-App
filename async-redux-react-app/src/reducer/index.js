@@ -23,7 +23,9 @@ const reducer = (state = initialState, action) => {
       };
     case FETCH_FAILURE:
       return {
-        ...state
+        ...state,
+        isFetching: false,
+        error: action.payload
       };
 
     default:
